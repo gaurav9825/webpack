@@ -577,6 +577,7 @@ export interface RuleSetRule {
 		| "javascript/dynamic"
 		| "javascript/esm"
 		| "json"
+		| "url/experimental"
 		| "webassembly/experimental";
 	/**
 	 * Modifiers applied to the module when rule is matched
